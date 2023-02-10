@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<section class="mt-5" >
+<div class="bg-image" style="height: 300px;margin-top: 50px;">
+    <img src="{% static 'website/banner_services.jpg' %}"  class="w-100 img-responsive " />
+
+    <div class="mask ">
+      <div class="d-flex justify-content-left align-items-left h-100 p-5  ms-5 mt-5" >
+        <div class="text-white">
+          <div class=" w3-animate-left">
+            <p class="display-6" style="font-weight:bold;">Graphics Design</p>
+            <p style="font-weight:bold;font-size:20px;"><span style="color: rgb(255, 195, 0);" >Scale your business with skitsoft software solutions</span> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section class="bg-dark p-5">
+    <div class="container container-fluid pt-5">
+        <p class="text-white" style="font-size: 130%;font-family: barlow_semi_condensedregular,Arial,sans-serif">
+            These are the most important aspects of branding. They typically include your name or your business's name or the name of your brand. The design is usually simple enough to represent what a business does quickly and easily.
+            <br><br>
+            Our Graphics Services include the design of: posters, logos, flyers, magazines, banners, brochures, menus, receipt books, invoices, road signage, vehicle branding, personalized branding and calendars.
+        </p>
+         <p class="text-center text-white display-1" style="font-weight:bold;">We <span style="color: rgb(255, 195, 0);" > follow full-cycle graphics development.</span> </p>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<section class="mt-5" >
+<div class="bg-image" style="height: 300px;margin-top: 50px;">
+    <img src="{% static 'website/banner_services.jpg' %}"  class="w-100 img-responsive " />
+
+    <div class="mask ">
+      <div class="d-flex justify-content-left align-items-left h-100 p-5  ms-5 mt-5" >
+        <div class="text-white">
+          <div class=" w3-animate-left">
+            <p class="display-6" style="font-weight:bold;">Internet Solutions</p>
+            <p style="font-weight:bold;font-size:20px;"><span style="color: rgb(255, 195, 0);" >Scale your business with skitsoft software solutions</span> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section class="bg-dark p-5">
+    <div class="container container-fluid pt-5">
+        <p class="text-white" style="font-size: 130%;font-family: barlow_semi_condensedregular,Arial,sans-serif">
+            We  have Skitwifi, a branch of Skitsoft that deals with the distribution of the internet to consumers all across Kenya.If you are looking for a reliable connection delivering High Speed Internet and IP Connectivity then Skitwifi is the way to go.
+            <br><br>
+            Our internet services can be used for a wide range of applications and can be set up anywhere, even in the remotest places.
+            This is considering the high cost of surfing in most parts of Kenya.
+            We have therefore integrated a Wifi router and a solar panel to come up with an affordable, convenient and reliable internet solution even for those in rural areas.
+            Our team is also always ready to  give immediate technical support if necessary.
+        </p>
+         <p class="text-center text-white display-1" style="font-weight:bold;">We <span style="color: rgb(255, 195, 0);" >offer Internet Solutions.</span> </p>
+    </div>
+</section>
+{% endblock %}

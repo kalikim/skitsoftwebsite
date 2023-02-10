@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<section class="mt-5" >
+<div class="bg-image" style="height: 300px;margin-top: 50px;">
+    <img src="{% static 'website/banner_services.jpg' %}"  class="w-100 img-responsive " />
+
+    <div class="mask ">
+      <div class="d-flex justify-content-left align-items-left h-100 p-5  ms-5 mt-5" >
+        <div class="text-white">
+          <div class=" w3-animate-left">
+            <p class="display-6" style="font-weight:bold;">Documentaries</p>
+            <p style="font-weight:bold;font-size:20px;"><span style="color: rgb(255, 195, 0);" >Scale your business with skitsoft software solutions</span> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section class="bg-dark p-5">
+    <div class="container container-fluid pt-5">
+        <p class="text-white" style="font-size: 130%;font-family: barlow_semi_condensedregular,Arial,sans-serif">
+            When you are thinking of creating an in depth informative video about your brand, then documentaries are the way to go. <br>
+            These are usually long explanatory videos often with a voice over narrator to keep your video engaging and thrilling.
+            <br><br>
+            There is no better way to tell your clients all you company is about than having a documentary done for you.
+        </p>
+         <p class="text-center text-white display-1" style="font-weight:bold;">We <span style="color: rgb(255, 195, 0);" > follow full-cycle Documentaries development process.</span> </p>
+    </div>
+</section>
+{% endblock %}

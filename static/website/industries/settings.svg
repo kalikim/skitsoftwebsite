@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="106.844" y1="185.375" x2="106.844" y2="142.062" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f15b40"/>
+      <stop offset="1" stop-color="#f69949"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="178.5" y1="96" x2="178.5" y2="72" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="106" y1="220" x2="106" y2="107" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="179" y1="128" x2="179" y2="41" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f69949"/>
+      <stop offset="1" stop-color="#f15b40"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M106.844,142.055c11.654,0,21.1,9.7,21.1,21.656s-9.447,21.655-21.1,21.655-21.1-9.7-21.1-21.655S95.191,142.055,106.844,142.055Z"/>
+  <path class="cls-2" d="M178.5,72A12.011,12.011,0,1,1,167,84,11.758,11.758,0,0,1,178.5,72Z"/>
+  <path class="cls-3" d="M97,107l-16,6,4,17-8,6-15-8-9,16,13,10v10l-16,8,5,16,16-3,8,8-7,16,16,8,9-14h10l7,17,17-6-4-16,8-7,16,8,9-17-15-10,1-9,16-8-5-16-15,3-9-8,8-15-17-10-8,15h-9Z"/>
+  <path class="cls-4" d="M145,57l-6,13,10,7v9l-13,5,4,13,13-3,6,7-6,11,12,6,7-10h8l6,13,12-6-3-9,6-8,12,7,8-13-10-6-1-9,12-6-4-13-12,4-6-6,5-14-12-7-7,13h-7l-5-14-14,3,3,13-7,7Z"/>
+</svg>

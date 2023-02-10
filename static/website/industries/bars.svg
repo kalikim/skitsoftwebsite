@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: #f15b40;
+        stroke: #f15b40;
+        stroke-width: 1px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="194.5" y1="188" x2="194.5" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f15b40"/>
+      <stop offset="1" stop-color="#f69949"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="151.5" x2="151.5" y2="106" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="108.5" y1="190" x2="108.5" y2="84" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="65" y1="190" x2="65" y2="121" xlink:href="#linear-gradient"/>
+  </defs>
+  <path class="cls-1" d="M182,50h25V188H182V50Z"/>
+  <path class="cls-2" d="M139,106h25v82H139V106Z"/>
+  <path class="cls-3" d="M96,84h25V190H96V84Z"/>
+  <path class="cls-4" d="M52,121H78v69H52V121Z"/>
+  <rect class="cls-5" x="43" y="206" width="174" height="5"/>
+</svg>

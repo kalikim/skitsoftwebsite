@@ -1,0 +1,1229 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <link type="image/x-icon" rel="shortcut icon" href="{% static 'website/logo1.png' %}"/>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+
+
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Skit Soft</title>
+  <style>
+      body{
+          background-image: url("{% static 'website/mainslider2.jpg' %}") ;
+      }
+  .mask:hover {
+  color: yellow !important;
+}
+.navbar-light .navbar-toggler {
+color: #ffff !important;
+}
+img1 {
+    display: block;
+    height: auto;
+    left: 50;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: contain;
+    position: relative;
+    top: 50;
+    transform: translate(-50%, 0%);
+    width: auto;
+  }
+  .bottom-right {
+  position: absolute;
+  bottom: 0rem;
+  right: -258rem;
+}
+.bottom-right-team {
+  position: absolute;
+   bottom: 0rem;
+   right: -331rem;
+}
+.w-m{
+    width: 17%!important;
+}
+.text-wrap{
+    position: relative;
+    display: block;
+}
+.text-wrap p{
+font-weight:bold;
+letter-spacing: 0.5;
+}
+.text-wrap h2{
+font-weight:bold;
+letter-spacing: 0.5;
+font-weight:bold;color: rgb(255, 195, 0);
+font-size: 45px;
+background: -webkit-linear-gradient(rgb(255, 195, 0), #F1833E);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.logo{
+background: -webkit-linear-gradient(rgb(255, 195, 0), #F1833E);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.bottom-left {
+  position: absolute;
+  top: 87px;
+  right: 44px;
+}
+.bottom-left-niithi {
+  position: absolute;
+  top: 114px;
+  right: 44px;
+}
+.bottom-left-team {
+  position: absolute;
+    top: 160px;
+    left: -72px;
+    width:131%!important;
+}
+
+
+.img-wrap{
+width: 123%!important;
+}
+
+
+  </style>
+</head>
+<body>
+<header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:black;" >
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="{% url 'home' %}">
+        <h2 class="text-white px-5 logo" style="font-weight:bold;letter-spacing:0.2em">SKITSOFT</h2>
+<!--        <img src="{% static 'website/logo.svg' %}" height="72" width="190" alt="SkitSoft" loading="lazy"/>-->
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-dark">
+        <li class="me-3 nav-item">
+          <a
+            class="nav-link  text-white"
+            href="#services"
+          >
+            SERVICES
+          </a>
+
+        </li>
+        <li class="me-2 nav-item ">
+          <a
+            class="nav-link text-white"
+            href="#industries"
+          >
+            INDUSTRIES
+          </a>
+        </li>
+        <li class="me-3 nav-item">
+          <a class="nav-link text-white" href="#cases">PORTFOLIO</a>
+        </li>
+        <li class="me-3 nav-item">
+          <a
+            class="nav-link text-white"
+            href="#about_us"
+          >
+            ABOUT US
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#contact">CONTACT US</a>
+        </li>
+
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+<div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <div class="bg-image " style="margin-top: 50px;">
+        <img src="{% static 'website/mainslider2.jpg' %}" style="height:600px"  class="d-none d-lg-block w-100" />
+        <img src="{% static 'website/mainslider2.jpg' %}" style="position: inherit;width:231%!important"  class="d-lg-none" />
+
+        <div class="mask">
+          <div class="row">
+              <div class="col-md-12">
+                <div class="d-none d-lg-block">
+                  <div class="d-flex  align-items-left h-100 p-5  ms-5 mt-5" >
+                  <div class="text-white">
+                    <div class="">
+                      <div class=" w3-animate-left">
+                        <p class="display-1" style="font-weight:bold;">Find</p>
+                        <p class="display-1" style="font-weight:bold;">Your Style</p>
+                        <p class="display-1" style="font-weight:bold;">In <span style="color: rgb(255, 195, 0);" >IT AND</span> </p>
+                        <p class="display-1" style="font-weight:bold;color: rgb(255, 195, 0);">AI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom-right" >
+                   <img src="{% static 'website/niithi.png' %}"  class="w-m" />
+                </div>
+                </div>
+                <div class="d-lg-none">
+                  <div class="d-flex  align-items-left p-2" >
+                  <div class="text-white">
+                    <div class="">
+                      <div class=" w3-animate-left text-wrap">
+                        <div class="text-wrap">
+                          <h2 class="display-1">SKITSOFT</h2>
+                        <p>YOUR ONE STOP DIGITAL AGENCY FOR ALL IT, AI , DIGITAL MARKETING, ANALYTICS & BRANDING SOLUTIONS </p>
+                        </div>
+                        <img src="{% static 'website/niithi.png' %}" class="img-wrap bottom-left-niithi">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <!-- Background image -->
+    </div>
+    <div class="carousel-item">
+      <div class="bg-image " style="margin-top: 50px;">
+        <img src="{% static 'website/mainslider2.jpg' %}" style="height:600px"  class="d-none d-lg-block w-100" />
+        <img src="{% static 'website/mainslider2.jpg' %}" style="position: inherit;width:231%!important"  class="d-lg-none" />
+
+        <div class="mask">
+          <div class="row">
+              <div class="col-md-12">
+                <div class="d-none d-lg-block">
+                  <div class="d-flex  align-items-left h-100 p-5  ms-5 mt-5" >
+                  <div class="text-white">
+                    <div class="">
+                      <div class=" w3-animate-left">
+                        <p class="display-1" style="font-weight:bold;">Find</p>
+                        <p class="display-1" style="font-weight:bold;">Your Style</p>
+                        <p class="display-1" style="font-weight:bold;">In <span style="color: rgb(255, 195, 0);" >IT AND</span> </p>
+                        <p class="display-1" style="font-weight:bold;color: rgb(255, 195, 0);">AI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom-right" >
+                   <img src="{% static 'website/henry.png' %}" class="w-m" />
+                </div>
+                </div>
+                <div class="d-lg-none">
+                  <div class="d-flex  align-items-left p-2" >
+                  <div class="text-white">
+                    <div class="">
+                      <div class=" w3-animate-left text-wrap">
+                        <div class="text-wrap">
+                          <h2 class="display-1">SKITSOFT</h2>
+                        <p>YOUR ONE STOP DIGITAL AGENCY FOR ALL IT, AI , DIGITAL MARKETING, ANALYTICS & BRANDING SOLUTIONS</p>
+                        </div>
+                        <img src="{% static 'website/henry.png' %}" class="img-wrap bottom-left">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <!-- Background image -->
+    </div>
+    <div class="carousel-item ">
+      <div class="bg-image " style="margin-top: 50px;">
+        <img src="{% static 'website/mainslider2.jpg' %}" style="height:600px"  class="d-none d-lg-block w-100" />
+        <img src="{% static 'website/mainslider2.jpg' %}" style="position: inherit;width:231%!important"  class="d-lg-none" />
+
+        <div class="mask">
+          <div class="row">
+              <div class="col-md-12">
+                <div class="d-none d-lg-block">
+                  <div class="d-flex  align-items-left h-100 p-5  ms-5 mt-5" >
+                  <div class="text-white">
+                    <div class="">
+                      <div class=" w3-animate-left">
+                        <p class="display-1" style="font-weight:bold;">Find</p>
+                        <p class="display-1" style="font-weight:bold;">Your Style</p>
+                        <p class="display-1" style="font-weight:bold;">In <span style="color: rgb(255, 195, 0);" >IT AND</span> </p>
+                        <p class="display-1" style="font-weight:bold;color: rgb(255, 195, 0);">AI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom-right-team" >
+                   <img src="{% static 'website/team.png' %}" class="w-m" />
+                </div>
+                </div>
+                <div class="d-lg-none">
+                  <div class="d-flex  align-items-left p-2" >
+                  <div class="text-white">
+                    <div class="">
+                      <div class=" w3-animate-left text-wrap">
+                        <div class="text-wrap">
+                          <h2 class="display-1">SKITSOFT</h2>
+                        <p>YOUR ONE STOP DIGITAL AGENCY FOR ALL IT, AI , DIGITAL MARKETING, ANALYTICS & BRANDING SOLUTIONS</p>
+                        </div>
+                        <img src="{% static 'website/team.png' %}" class="bottom-left-team">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <!-- Background image -->
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselExampleIndicators"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselExampleIndicators"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+<div id="services"></div>
+
+</div>
+</header>
+<div class="container">
+  <section class="mt-5" >
+  <div class="row">
+    <div class="col-md-3">
+      <h3 class="logo">SKITSOFT SERVICES</h3>
+      <span><hr></span>
+      <p class="pb-5">
+        Our focus is on cutting edge digital solutions that enhance brand and business growth.
+      </p>
+
+      <button class="btn btn-rounded btn-warning">Our Specialties</button>
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <div class="col-md-4">
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-mdb-ripple-color="light"
+            >
+              <div class="card-body">
+              <h5 class="card-title text-center">
+<!--                <i class="fa fa-user"></i> <br>-->
+                <img src="{% static 'website/icons/digital_agency.svg' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                <br>
+                DIGITAL AGENCY
+              </h5>
+              <p class="card-text mb-2 pb-3">
+               We are one stop digital agency, we outsource all your digital marketing needs. We provide your business
+                with a variety of digital solutions to promote your product or service online and help you hit your
+                marketing goals and grow your business.
+              </p>
+            </div>
+              <a href="#!">
+                <div class="mask" style="
+              background: linear-gradient(
+                45deg,
+
+                rgba(251, 176, 52, 0.5),
+                rgba(255, 221, 0, 0.5) 100%
+              );
+              "></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/icons/app_development.svg' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  WEBSITES AND MOBILE APP DEVELOPMENT
+                </h5>
+                <p class="card-text">
+                  To ensure that a firm efficiently reaches its clients, it must have an online presence. By creating
+                  and developing unique websites and mobile applications(Android and iOS) for your business, Skitsoft assists you in achieving effective
+                  outreach.
+                  <br/>
+                  <br/>
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+
+                rgba(251, 176, 52, 0.5),
+                rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/icons/design.svg' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  ANIMATION,VIDEOGRAPHY & GRAPHIC DESIGN
+                </h5>
+                <p class="card-text">
+                  Every brand needs to emotionally appeal to its consumers. At Skitsoft we focus on creation of visual
+                  messages through <b>ANIMATIONS, VIDEOS & GRAPHICS</b> in order to transmit a brand’s idea to an emotionally
+                  appealing message for the clients.
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                rgba(251, 176, 52, 0.5),
+                rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/icons/seo.svg' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  BRAND MANAGEMENT, SOCIAL MEDIA MANAGEMENT AND INFLUENCER MARKETING
+                </h5>
+                <p class="card-text pb-5">
+                  Online obscurity is every business’s headache, skitsoft team has established systematic
+                    way of helping businesses and corporations with  brand management, social media management and influencer marketing.
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                rgba(251, 176, 52, 0.5),
+                rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/icons/security.svg' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  CYBER SECURITY
+                </h5>
+                <p class="card-text pb-4">
+                  Skitsoft is a certified  services provider of  Kaspersky, which is  a global  award winning
+                  cybersecurity provider. We provide a wide range of cybersecurity services to clients. Skitsoft
+                  provides Cyber security consultancy including all Kaspersky cybersecurity  services.
+                </p>
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(251, 176, 52, 0.5),
+                  rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/icons/fintech.png' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  FINTECH, CRYPTOCURRENCY AND ECOMMERCE SOLUTIONS
+                </h5>
+                <p class="card-text">
+                  Skitsoft integrates fintech, cryptocurrency and ecommerce  solutions for businesses. Skitsoft is passionate about
+                  delivering practical, innovative, secure and sustainable fintech, cryptocurrency and ecommerce solutions with the
+                  leading finance and blockchain technologies
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(251, 176, 52, 0.5),
+                  rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/industries/bars.png' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  DATA PROCESSING,ANALYTICS AND AI
+                </h5>
+                <p class="card-text">
+                  Skitsoft solutions is a “go to professional” for AI, and  Data processing services which include data entry, data cleansing , document digitisation, error correction, data classification, website migration, Data analysis, auditing and verification, document transcription, image to test, pdf extraction and data reformatting
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(251, 176, 52, 0.5),
+                  rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/icons/seo.svg' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  SEO
+                </h5>
+                <p class="card-text">
+                  Get more traffic to your website
+                  and social media pages with
+                  versatile solutions for every step
+                  of your SEO journey. Skitsoft
+                  helps with SEO copywriting, Local
+                  search engine optimization, SEO
+                  content writing and more.websites analytics, link building services, 
+                  conversion optimizations, pay per click management 
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(251, 176, 52, 0.5),
+                  rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-mdb-ripple-color="light"
+              >
+                <div class="card-body">
+                <h5 class="card-title text-center">
+                  <img src="{% static 'website/industries/play.png' %}" height="100" alt="Skit Soft" loading="lazy"/>
+                  <br>
+                  VOICE OVER
+                </h5>
+                <p class="card-text">
+                  A good advert needs a quality
+                  voice over. We will provide you
+                  with a voice that will make your
+                  advert as persuasive as possible.
+                  we offer multilingual versions of your
+                  advertisement with quality sound
+                  and top notch effects.
+                </p>
+
+              </div>
+                <a href="#!">
+                  <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(251, 176, 52, 0.5),
+                  rgba(255, 221, 0, 0.5) 100%
+                );
+
+                "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+</div>
+<section class="pt-5 bg-light" id="about_us">
+    <div class="row p-5">
+        <div class="col-md-6">
+          <img class="img-fluid rounded" height="400" width="500"  src="{% static 'website/artboard.png' %}" /> 
+        </div>
+        <div class="col-md-6">
+          <h3 >ABOUT SKITSOFT</h3>
+          <hr style="width: 50%;">
+          <p>
+            Skitsoft Solutions is your ideal one stop digital agency incorporated in kenya as Skitsoft limited.
+            We are based in Westlands, Nairobi, Kenya but with ties as far as Europe.
+            Our team comprises professionals from all across careers and this has ensured a diversification of the output we give to our clients.
+            We have engineers, journalists, graphics designers, actuarists and IT experts on board.
+            When you contact SkitSoft, you contact professionals.
+            <br/>
+            <b >MISSION</b>
+            <br/>
+            To be a market leader in IT, AI , digital marketing, Analytics and branding solutions
+
+            <br/>
+            <b >VISION</b>
+            <br/>
+            To improve the business development of our clients with inventive Design and Development to convey market-characterizing
+            excellent arrangements that make esteem and predictable upper hand for our customers all throughout the
+            corporate world with cutting edge technologies and innovations.
+          </p>
+          <div class="text-center">
+            <a  class="px-5 btn btn-orange btn-rounded" href="">Our Work</a>
+          </div>
+        </div>
+    </div>
+  </section>
+<section id="industries">
+  <div class="row p-5">
+    <div class="col-md-3">
+      <div class="card " style="background-image: linear-gradient(to bottom right,rgb(255, 195, 0), #F1833E);height:240px;">
+        <div class="card-body"></div>
+        <div class="card-footer">
+          <p class="display-6 text-center" style="font-weight:bold;">Industries</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+  <!-- Carousel wrapper -->
+  <div
+  id="carouselBasicExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+  >
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="height:240px;">
+            <div class="card-body">
+              <img src="{% static 'website/industries/play.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Media & Entertainment</h2>
+            </div>
+          </div>, 
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height:240px;">
+            <div class="card-body">
+              <img src="{% static 'website/industries/bars.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Corporations</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height:240px;">
+            <div class="card-body">
+              <img src="{% static 'website/industries/settings.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Manufacturing</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4"> 
+          <div class="card" style="height:240px;">
+            <div class="card-body">
+              <img src="{% static 'website/icons/fintech.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Finance Services</h2>
+            </div>
+          </div>, 
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height:240px;">
+            <div class="card-body">
+              <img src="{% static 'website/industries/cart.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">eCommerce</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height:240px;">
+            <div class="card-body">
+              <img src="{% static 'website/industries/play.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;"> Media & Entertainment </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+  
+  <!-- Controls -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <!-- Carousel wrapper -->
+    </div>
+  </div>
+</section>
+<div class="container">
+  <section class="pt-5 mb-5" id="cases">
+    <h3 class="logo">PORTFOLIO</h3>
+    <hr>
+    <!-- ------------- -->
+    <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 hover-zoom">
+                <iframe height="238" width="357" src="https://www.youtube.com/embed/z5MTy7VNJcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">BRAVA PRODUCTS AD BY SKITSOFT SOLUTIONS
+                  </h5> 
+                  <p class="card-text">
+                    BRAVA FOODS AND BEVERAGE AD was created by skitsoft solutions.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="https://youtu.be/z5MTy7VNJcs" target="blank">VISIT AD</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 hover-zoom">
+                <iframe width="357" height="238" src="https://www.youtube.com/embed/ZNlNbf-1k-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">BONFIRE ADVENTURES AD BY SKITSOFT SOLUTIONS               </h5>
+                  <p class="card-text">
+                    BONFIRE ADVENTURE AD whole project was created by skitsoft solutions this includes the voiceover and the video creation.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="https://youtu.be/ZNlNbf-1k-0" target="blank" >Visit Site</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 hover-zoom">
+                <iframe width="357" height="238" src="https://www.youtube.com/embed/XiUbRq5PirI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe width="357" height="238" src="https://youtu.be/XiUbRq5PirI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <div class="card-body">
+                  <h5 class="card-title">SPOTIFY Mini VOICEOVER BY SKITSOFT</h5>
+                  <p class="card-text">
+                    This spotify mini voiceover was created by skitsoft solutions.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="https://youtu.be/9bqN6z8K4eY" target="blank">Visit Site</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 hover-zoom">
+                <img height="238" width="357" src="{% static 'website/portfolio/portfolio2.png' %}" />
+                <div class="card-body">
+                  <h5 class="card-title">My Kodi 
+                  </h5> 
+                  <p class="card-text">
+                    <ul>
+                      <li>Different user levels can be added and managed.</li>
+                      <li>All of your properties should be registered.</li>
+                      <li>When a property agent registers you or your renter, you'll be alerted.</li>
+                      <li>Complete KYC registration is required for all renters.</li>
+                      <li>Get notified when a renter moves in, moves out, or the lease expires.</li>
+                      <li> Keep track of all utility bills.</li>
+                    </ul>                   
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="https://youtu.be/z5MTy7VNJcs" target="blank">Visit Site</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 hover-zoom">
+                <img height="238" width="357" src="{% static 'website/portfolio/portfolio3.png' %}" />
+
+                <div class="card-body">
+                  <h5 class="card-title">Basic School Management System</h5>
+                  <p class="card-text">
+                    A School Management System (SMS) is an information management system used by educational institutions to handle all of their students' information. In addition, an SMS is used to organize students' curriculums, track their attendance, and manage all of a school's student-related demands.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="https://youtu.be/ZNlNbf-1k-0" target="blank" >Visit Site</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 hover-zoom">
+                <iframe width="357" height="238" src="https://www.youtube.com/embed/XiUbRq5PirI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">SPOTIFY Mini VoiceOver by Skitsoft</h5>
+                  <p class="card-text">
+                    The cost for voice overs varies based on the finished minutes or word count of your script.
+There are several online platforms that offer voice talents but I would recommend that you contact Skitsoft Solutions today to get a professional voice over for your advert.
+The average cost for a voice over ranges between 100 US Dollars and 250 US Dollars for every two minutes or around 300 words.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="https://youtu.be/9bqN6z8K4eY" target="blank">Visit Site</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- ----------------- -->
+
+</section>
+</div>
+<section>
+  <div class="row p-5">
+    <div class="col-md-3">
+      <div class="card " style="background-image: linear-gradient(to bottom right,rgb(255, 195, 0), #F1833E);">
+        <div class="card-body"></div>
+        <div class="card-footer">
+          <p class="display-6 text-center" style="font-weight:bold;">Clients <br> & Partners</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+  <!-- Carousel wrapper -->
+  <div
+  id="carouselBasicExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+  >
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+              <img src="{% static 'clients/flitaa.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Media & Entertainment</h2>
+            </div> -->
+          </div>, 
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+              <img src="{% static 'clients/katreva.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Corporations</h2>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+              <img src="{% static 'clients/spotify.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Manufacturing</h2>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4"> 
+          <div class="card">
+            <div class="card-body">
+              <img src="{% static 'clients/aloecare.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Finance Services</h2>
+            </div> -->
+          </div>, 
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="{% static 'clients/bonfire.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">eCommerce</h2>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+              <img src="{% static 'clients/brava.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;"> Media & Entertainment </h2>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4"> 
+          <div class="card">
+            <div class="card-body">
+              <img src="{% static 'clients/thebrand.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Finance Services</h2>
+            </div> -->
+          </div>, 
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="{% static 'clients/pmt.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">eCommerce</h2>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+              <img src="{% static 'clients/oddsey.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;"> Media & Entertainment </h2>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4"> 
+          <div class="card">
+            <div class="card-body">
+              <img src="{% static 'clients/rebranded-01.png' %}" class="img-fluid" style="height:100px" />
+            </div>
+            <!-- <div class="card-footer" style="border-top: none;">
+              <h2 class="" style="font-weight:bold;">Finance Services</h2>
+            </div> -->
+          </div>, 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+  
+  <!-- Controls -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <!-- Carousel wrapper -->
+    </div>
+  </div>
+</section>
+<footer class="bg-dark" id="contact">
+  <div class="container">
+    <div class="row  pt-5">
+        <h3 class="text-center text-white mb-5 logo">SKITSOFT SOLUTIONS</h3>
+        <div class="col-md-4 ms-1">
+        <h3 class="text-light">Our Location</h3>
+        <p style="color:#adb5bd">
+          Chiromo Lane, Westlands, New Waumini House, <br> 6th Floor, Door 605,
+          MCM & Associates Advocates. <br> Postal address: P.O. Box 105838 ,Nairobi
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8438485068077!2d36.80536946471717!3d-1.2663523359618438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8e86bd263c59b24!2sNEW%20WAUMINI%20HOUSE!5e0!3m2!1sen!2ske!4v1628251549250!5m2!1sen!2ske" style="border:0;width:auto;height: auto;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-md-3 me-5">
+        <h4 class="text-light">Services</h4>
+        <ul class="list-unstyled" style="color:#adb5bd">
+          DIGITAL AGENCY
+          <li>WEBSITES AND MOBILE APP DEVELOPMENT</li>
+          <li>IT CONSULTANCY</li>
+          <li>SEO</li>
+          <li>CYBER SECURITY</li>
+          <li>FINTECH SOLUTIONS</li>
+        </ul>
+      </div>
+      <div class="col-md-4 me-5 ">
+        <h4 class="text-light">About Us</h4>
+        <p style="color:#adb5bd">
+          SkitSoft Solutions is your ideal one stop digital agency.
+          We are based in Westlands, Nairobi, Kenya but with ties as far as Europe.
+          Our team comprises professionals from all across careers and this has ensured a diversification of the output we give to our clients.
+          We have engineers, journalists, graphics designers, actuarists and IT experts on board.
+          When you contact SkitSoft, you contact professionals.
+        </p>
+        <h4 class="text-light">Social Links</h4>
+        <span style="color:#adb5bd">
+          <a href="mailto:skitsoftsolutions@gmail.com"><i class="fa fa-envelope pe-4"></i></a>
+
+          <a href="https://www.facebook.com/skitsoftsolutions" target="blank"><i class="fab fa-facebook-f pe-4"></i></a>
+          <a href="https://www.instagram.com/skitsoft/" target="blank"><i class="fab fa-instagram pe-4"></i></a>
+          <a href="https://www.linkedin.com/company/skitsoft" target="blank"><i class="fab fa-linkedin pe-4"></i></a>
+          <a href="https://twitter.com/skitsofts" target="blank"><i class="fab fa-twitter"></i></a>
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+></script>
+<script type="text/javascript" src="https://popupsmart.com/freechat.js"></script><script> window.start.init({ title: "Skitsoft Digital Agency😉", message: "Hello, How may we help you? Just send us a message now to get assistance", color: "#F1833E", position: "right", placeholder: "Enter your message", withText: "Write with", viaWhatsapp: "Or write us directly via Whatsapp", gty: "Go to your", awu: "and write us", connect: "Connect now",  button: "Talk To Us", device: "everywhere", logo: "https://d2r80wdbkwti6l.cloudfront.net/K3VcGC6Hk9Zz2afTNCHchhhSRZXo3dNR.jpg", person: "https://d2r80wdbkwti6l.cloudfront.net/Y7RQYiTmRIZpBvJqCyq0aF6BVkxvJXLj.jpg",  services: [{"name":"whatsapp","content":"+254708679300"},{"name":"messenger","content":"637934106347369"},{"name":"instagram","content":"skitsoft"},{"name":"phone","content":"+254708679300"},{"name":"mail","content":"info@skit-soft.com"}]})</script>
+
+<canvas class="background"></canvas>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<section class="mt-5" >
+<div class="bg-image" style="height: 300px;margin-top: 50px;">
+    <img src="{% static 'website/banner_services.jpg' %}"  class="w-100 img-responsive " />
+
+    <div class="mask ">
+      <div class="d-flex justify-content-left align-items-left h-100 p-5  ms-5 mt-5" >
+        <div class="text-white">
+          <div class=" w3-animate-left">
+            <p class="display-6" style="font-weight:bold;">Software Development Services</p>
+            <p style="font-weight:bold;font-size:20px;"><span style="color: rgb(255, 195, 0);" >We offer a wide range of software development solutions.</span> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<section class="bg-dark p-5">
+    <div class="container container-fluid pt-5">
+        <p class="display-5" style="color: rgb(255, 195, 0);">Website Design</p>
+        <p class="text-white" style="font-size: 130%;font-family: barlow_semi_condensedregular,Arial,sans-serif">
+            A website is the most effective way to help establish your business. Serious business owners must have an online presence. This ensures that they explore a world not limited by geography.
+            <br><br>
+            Today businesses are using their websites to advertise their products, sell and deliver without even the need for a physical meetup. <br>
+            A well designed, informative and updated website will add credibility to your business and strengthen your brand. Contact the Skitsoft website development team for yours today.
+        </p>
+        <p class="display-5" style="color: rgb(255, 195, 0);">Mobile applications</p>
+        <p class="text-white" style="font-size: 130%;font-family: barlow_semi_condensedregular,Arial,sans-serif">
+            They are slowly replacing websites. Mobile apps currently present the most efficient, direct, and customizable way to deliver information about a product and to encourage brand loyalty.
+            With an increase in the global number of mobile phone users, then one needs a mobile app if they needa reach almost every person on the globe.
+            At Skitsoft solutions, we make a mobile app custom to the needs of a specific clientele
+        </p>
+         <p class="text-center text-white display-1" style="font-weight:bold;">We <span style="color: rgb(255, 195, 0);" > follow full-cycle Software development process.</span> </p>
+    </div>
+</section>
+{% endblock %}
